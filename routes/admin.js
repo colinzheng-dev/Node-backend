@@ -179,4 +179,3 @@ const router = AdminBroExpress.buildAuthenticatedRouter(adminBro, {
 });
 
 module.exports = router;
-// module is always used when the page is loading.
