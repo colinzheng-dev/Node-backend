@@ -4,7 +4,7 @@ const Product = require("../models/product");
 const Category = require("../models/category");
 var moment = require("moment");
 
-// GET: display all products
+// GET: display all products according to category
 router.get("/", async (req, res) => {
   const successMsg = req.flash("success")[0];
   const errorMsg = req.flash("error")[0];
