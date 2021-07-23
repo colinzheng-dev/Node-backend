@@ -23,7 +23,6 @@ router.get("/", async (req, res) => {
     res.redirect("/");
   }
 });
-
 // GET: add a product to the shopping cart when "Add to cart" button is pressed
 router.get("/add-to-cart/:id", async (req, res) => {
   const productId = req.params.id;

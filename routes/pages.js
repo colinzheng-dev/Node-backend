@@ -62,7 +62,7 @@ router.post(
       },
     });
 
-    // email options
+    // email options you can choose it here.
     const mailOpts = {
       from: req.body.email,
       to: process.env.GMAIL_EMAIL,
