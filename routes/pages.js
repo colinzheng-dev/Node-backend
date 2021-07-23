@@ -53,7 +53,7 @@ router.post(
       port: 587,
       secure: false,
       auth: {
-        // company's email and password
+        // company's email and password : these are in env.file
         user: process.env.GMAIL_EMAIL,
         pass: process.env.GMAIL_PASSWORD,
       },
